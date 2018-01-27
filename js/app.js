@@ -501,7 +501,8 @@ class App extends React.Component {
             className="randomColor"
             onClick={this
             .randomColor
-            .bind(this)}>
+            .bind(this)}
+            title="Random color">
             <img src={random}/>
           </button>
 
